@@ -22,7 +22,7 @@ body{
     border-radius: 10px;
 }  
 .container img{
-    width: 37em;
+    width: 100%;
     height: 270px;
     border-radius: 35px;
     padding:27px 22px 20px 22px;
@@ -38,7 +38,7 @@ body{
     font-family: var(--f2);
     color: hsl(0, 0%, 42%);
     padding: 15px 25px;
-    font-size: 14px;
+    font-size: 13px;
 }
 .container .Second{
     background-color: hsl(330, 100%, 98%);
@@ -51,10 +51,10 @@ body{
     color: hsl(332, 51%, 32%);
     padding: 15px 25px;
     font-size: 16px;
+    font-weight: 700;
 }
 .container .Second ul{
     font-family: var(--f2);
-    color:hsl(332, 51%, 32%) ;
     padding: 0px 25px;
     font-size: 14px;
     list-style-type: disc;
@@ -62,5 +62,12 @@ body{
 }
 .container .Second ul li{
     padding: 5px 0;
-    color:hsl(0, 0%, 42%)
+    color:hsl(332, 51%, 32%) ;
+    font-weight: 600;
+}
+.container .Second ul li .name,.time{
+    color: hsl(24, 5%, 18%);
 }   
+.container .Second ul li .time{
+    font-weight: 400;
+}
