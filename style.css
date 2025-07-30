@@ -71,3 +71,37 @@ body{
 .container .Second ul li .time{
     font-weight: 400;
 }
+.container .Third{
+    width: 90%;
+    margin:20px 60px 16px 60px;
+}
+
+.container .Third p{
+    font-family: var(--ff);
+    color: hsl(14, 45%, 36%);
+    padding: px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.container .Third ul{
+    font-family: var(--f2);
+    padding: 0px 25px;
+    font-size: 14px;
+    list-style-type: disc;
+    
+}
+.container .Third ul li{
+    padding: 5px 0;
+    color:hsl(14, 45%, 36%);
+}
+.container .Third ul li .Ingredients{
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}   
+.container .line{
+color:hsl(24, 5%, 18%);
+    width: 90%;
+    height: 1px;
+    background-color: hsl(0, 0%, 80%);
+    margin: 5px auto;
+}
