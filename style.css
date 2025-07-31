@@ -21,24 +21,33 @@ body{
     margin:50px auto;
     border-radius: 10px;
 }  
-.container img{
-    width: 100%;
-    height: 270px;
-    border-radius: 35px;
-    padding:27px 22px 20px 22px;
+.container .First{
+    width: 90%;
+    margin:20px 60px 16px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.container h1{
+.container .image img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 35px;
+    padding:27px;
+    display: block;
+}
+.container .First h1{
     font-family: var(--ff);
     color: hsl(0, 0%, 7%);
-    padding-left: 25px;
+    padding-right:170px;
     font-size:2.0em;
     font-weight:400;
 }
 .container article{
     font-family: var(--f2);
     color: hsl(0, 0%, 42%);
-    padding: 15px 25px;
-    font-size: 13px;
+    padding:10px 2px;
+    font-size: 14px;
 }
 .container .Second{
     background-color: hsl(330, 100%, 98%);
@@ -104,4 +113,81 @@ color:hsl(24, 5%, 18%);
     height: 1px;
     background-color: hsl(0, 0%, 80%);
     margin: 5px auto;
+}
+
+.container .Fourth{
+    width: 90%;
+    margin:20px 60px 16px 60px;
+}
+
+.container .Fourth p{
+    font-family: var(--ff);
+    color: hsl(14, 45%, 36%);
+    padding: px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.container .Fourth ol{
+    font-family: var(--f2);
+    padding: 0px 25px;
+    font-size: 14px;
+    list-style-type: disc;
+    
+}
+.container .Fourth ol li{
+    padding: 5px 0;
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.container .Fourth ol li .name,.time{
+    color: hsl(24, 5%, 18%);
+}
+    
+.container .Fourth ol li .time{
+    font-weight: 400;
+} 
+.container .line{
+    color:hsl(24, 5%, 18%);
+    width: 90%;
+    height: 1px;
+    background-color: hsl(0, 0%, 80%);
+    margin: 5px auto;
+}
+
+.container .Fifth{
+    width: 90%;
+    margin:20px 60px 16px 60px;
+}
+
+.container .Fifth p{
+    font-family: var(--ff);
+    color: hsl(14, 45%, 36%);
+    padding: px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.container  .Fifth article{
+    font-family: var(--f2);
+    color: hsl(0, 0%, 42%);
+    padding: 10px 2px;
+    font-size: 13px;
+}
+.container .Fifth  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: var(--f2);
+    font-size: 14px;
+    color:  hsl(30, 10%, 34%);
+    font-weight:400;
+    margin-bottom:20px
+   
+}
+.container .Fifth  table span{
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+.container .Fifth  table td{
+    padding: 10px 26px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
